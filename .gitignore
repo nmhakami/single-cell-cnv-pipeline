@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+
+# Generated results
+*_counts.bed
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.venv/
